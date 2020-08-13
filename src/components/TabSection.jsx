@@ -4,7 +4,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 class TabSection extends Component {
   render() {
     let tab1 = "Main skills",
-      tab2 = "Awards",
+      tab2 = "Extra",
       tab3 = "Experience",
       tab4 = "Education & Certification";
     const { tabStyle } = this.props;
@@ -48,23 +48,19 @@ class TabSection extends Component {
                     <div className="single-tab-content">
                       <ul>
                         <li>
-                          <a href="#">
-                            Awwwards.com <span>- Winner</span>
-                          </a>{" "}
-                          2019 - 2020
+                          Research Grant - Creativity as Context in the ESL
+                          Classroom
+                        </li>
+                        <li>Thesis Advisor </li>
+                        <li>
+                          TOESL Presenter - Using Podcasts in the ESL Classroom
                         </li>
                         <li>
-                          <a href="#">
-                            CSS Design Awards <span>- Winner</span>
-                          </a>{" "}
-                          2017 - 2018
+                          TOESL Presenter - Creativity as Context in the ESL
+                          Classroom
                         </li>
-                        <li>
-                          <a href="#">
-                            Design nominees <span>- site of the day</span>
-                          </a>{" "}
-                          2013- 2014
-                        </li>
+                        <li>Yoga Specialty Certification</li>
+                        <li>Multi Subject Teaching Credential - California & Illinois</li>
                       </ul>
                     </div>
                   </TabPanel>
@@ -119,6 +115,13 @@ class TabSection extends Component {
                             <span> - COLUMBIA COLLEGE CHICAGO</span>
                           </a>{" "}
                           2006-2010
+                        </li>
+                        <li>
+                          <a href="#">
+                            FRONTEND DEVELOPER CERTIFICATE
+                            <span> - SKILLCRUSH</span>
+                          </a>{" "}
+                          2019-2020
                         </li>
                       </ul>
                     </div>

@@ -10,29 +10,29 @@ const PortfolioListContent = [
   },
   {
     image: "image-2",
-    title: "CookBook - Fullstack Cookbook App",
-    link: "https://still-sierra-23537.herokuapp.com/",
+    title: "Wedding Website ReactJS - Full Stack",
+    link: "https://laurenmattwedding.com/",
   },
   {
     image: "image-3",
-      title: "PlannerApp: Work Day Planner app made with moment.js and jQuery",
-    link:"https://lindyem.github.io/workdayplanner/"
+    title: "PlannerApp: Work Day Planner app made with moment.js and jQuery",
+    link: "https://lindyem.github.io/workdayplanner/",
   },
   {
     image: "image-4",
-      title: "Video World: App using Youtube and Google Maps API",
-    link:"https://lindyem.github.io/videoWorld/"
+    title: "Video World: App using Youtube and Google Maps API",
+    link: "https://lindyem.github.io/videoWorld/",
   },
   {
-    image: "image-3",
-      title: "Burger Devour App: App using Handlebars, MYSQL, and node.js",
-    link:"https://morning-ocean-42962.herokuapp.com/"
+    image: "image-5",
+    title: "Burger Devour App: App using Handlebars, MYSQL, and node.js",
+    link: "https://morning-ocean-42962.herokuapp.com/",
   },
   //{
   //  image: "image-4",
-   // category: "Development",
-   // title: "Getting tickets to the big show",
- // },
+  // category: "Development",
+  // title: "Getting tickets to the big show",
+  // },
 ];
 
 class PortfolioList extends Component{

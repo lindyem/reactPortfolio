@@ -20,8 +20,8 @@ class Contact extends Component {
                 <h2 className="title">Hire Me.</h2>
                 <p className="description">
                   I am available for freelance work. Connect with me via phone:{" "}
-                  <a href="tel:+8801923088574">01923 088574</a> or email:
-                  <a href="mailto:admin@example.com"> admin@example.com</a>{" "}
+                  <a href="tel:+16197240792">1-619-724-0792</a> or email:
+                  <a href="mailto:lindy.merwin@gmail.com"> lindy.merwin@gmail.com</a>{" "}
                 </p>
               </div>
               <div className="form-wrapper">
@@ -90,7 +90,7 @@ class Contact extends Component {
             </div>
             <div className="col-lg-6 order-1 order-lg-2">
               <div className="thumbnail mb_md--30 mb_sm--30">
-                <img src="/assets/images/about/about-6.jpg" alt="trydo" />
+              
               </div>
             </div>
           </div>
