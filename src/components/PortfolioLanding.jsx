@@ -13,8 +13,8 @@ const SlideList = [
     {
         textPosition: 'text-left',
         category: 'Full Stack Developer',
-        title: 'Hello, I’m <span>Lindy</span> Welcome to my World.',
-        description: 'Born in the Midwest. Inspired by 10 years in Mexico. Teacher by trade. Web developer & designer by passion',
+        title: 'Hello, I’m <span>Lindy</span>! ',
+        description: 'Born in the Midwest. Inspired by 10 years in Mexico. Teacher by trade. Web developer & designer by passion.',
         buttonText: '',
         buttonLink: ''
     }

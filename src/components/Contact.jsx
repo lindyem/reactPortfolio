@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import emailjs from 'emailjs-com';
 
 class Contact extends Component {
   constructor(props) {
@@ -10,6 +11,26 @@ class Contact extends Component {
       rnMessage: "",
     };
   }
+
+  handleSubmit = (e) => {
+    e.preventDefault();
+    let data = {
+      message_html: `
+      ${this.state.rnSubject}
+      <br>
+      ${this.state.rnMessage}
+      `,
+      from_name: this.state.rnName,
+      reply_to: this.state.rnEmail,
+    };
+    emailjs.send('gmail', 'template_O78N6v9d', data, 'user_MRlRqSqMuRgd1epfrVZRb')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  }
+
   render() {
     return (
       <div className="contact-form--1">
@@ -25,7 +46,7 @@ class Contact extends Component {
                 </p>
               </div>
               <div className="form-wrapper">
-                <form>
+                <form onSubmit={this.handleSubmit}>
                   <label htmlFor="item01">
                     <input
                       type="text"
