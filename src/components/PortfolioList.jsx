@@ -1,37 +1,39 @@
 import React, { Component } from "react";
 
+import './images.scss';
+
 const PortfolioListContent = [
-    {
-        image: 'image-1',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: 'image-2',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: 'image-3',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: 'image-4',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: 'image-3',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: 'image-4',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    }
-]
+  {
+    image: "image-1",
+    title: "BIG Mobile Echocardiography WordPress site",
+    link: "http://beesimaginggroup.com/",
+  },
+  {
+    image: "image-2",
+    title: "CookBook - Fullstack Cookbook App",
+    link: "https://still-sierra-23537.herokuapp.com/",
+  },
+  {
+    image: "image-3",
+      title: "PlannerApp: Work Day Planner app made with moment.js and jQuery",
+    link:"https://lindyem.github.io/workdayplanner/"
+  },
+  {
+    image: "image-4",
+      title: "Video World: App using Youtube and Google Maps API",
+    link:"https://lindyem.github.io/videoWorld/"
+  },
+  {
+    image: "image-3",
+      title: "Burger Devour App: App using Handlebars, MYSQL, and node.js",
+    link:"https://morning-ocean-42962.herokuapp.com/"
+  },
+  //{
+  //  image: "image-4",
+   // category: "Development",
+   // title: "Getting tickets to the big show",
+ // },
+];
 
 class PortfolioList extends Component{
     render(){
@@ -48,10 +50,9 @@ class PortfolioList extends Component{
                             </div>
                             <div className="content">
                                 <div className="inner">
-                                    <p>{value.category}</p>
-                                    <h4><a href="/portfolio-details">{value.title}</a></h4>
+                                    <h4><a target="_blank" href={value.link}>{value.title}</a></h4>
                                     <div className="portfolio-button">
-                                        <a className="rn-btn" href="/portfolio-details">View Details</a>
+                                        <a target="_blank" className="rn-btn" href={value.link}>View Details</a>
                                     </div>
                                 </div>
                             </div>
