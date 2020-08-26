@@ -7,7 +7,7 @@ import TabSection from "./TabSection";
 import Contact from "./Contact";
 import PortfolioList from "./PortfolioList";
 import ServiceList from "./ServiceList";
-import aboutMeImage from "../assets/images/lindy.jpg";
+import aboutMeImage from "../assets/images/lindythumb1.png";
 
 const SlideList = [
   {
