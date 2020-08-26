@@ -9,6 +9,11 @@ const PortfolioListContent = [
     link: "http://beesimaginggroup.com/",
   },
   {
+    image: "image-6",
+    title: "BOL$A: MERN React app",
+    link:"https://bolsa-tober65.herokuapp.com/",
+  },
+  {
     image: "image-2",
     title: "Wedding Website ReactJS - Full Stack",
     link: "https://laurenmattwedding.com/",
@@ -28,11 +33,7 @@ const PortfolioListContent = [
     title: "Burger Devour App: App using Handlebars, MYSQL, and node.js",
     link: "https://morning-ocean-42962.herokuapp.com/",
   },
-  //{
-  //  image: "image-4",
-  // category: "Development",
-  // title: "Getting tickets to the big show",
-  // },
+ 
 ];
 
 class PortfolioList extends Component{
