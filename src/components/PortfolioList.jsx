@@ -19,6 +19,11 @@ const PortfolioListContent = [
     link: "https://laurenmattwedding.com/",
   },
   {
+    image: "image-7",
+    title: "React project that uses Firebase services for real-time database storage and authentication",
+    link: "https://instagram-clone-d1536.web.app/",
+  },
+  {
     image: "image-3",
     title: "PlannerApp: Work Day Planner app made with moment.js and jQuery",
     link: "https://lindyem.github.io/workdayplanner/",
@@ -33,6 +38,7 @@ const PortfolioListContent = [
     title: "Burger Devour App: App using Handlebars, MYSQL, and node.js",
     link: "https://morning-ocean-42962.herokuapp.com/",
   },
+ 
  
 ];
 

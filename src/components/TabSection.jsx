@@ -31,8 +31,7 @@ class TabSection extends Component {
                             Web
                             <span> - Development</span>
                           </a>
-                          html5/CSS, Javascript, ReactJS, NodeJS, MongoDB,
-                          WordPress
+                          HTML5/CSS3, Javascript/jQuery, ReactJS, NodeJS, MongoDB, Firebase, WordPress
                         </li>
                         <li>
                           <a href="#">
@@ -74,6 +73,9 @@ class TabSection extends Component {
                         </li>
                         <li class="list-inline-item">
                           <i class="fab fa-adobe"></i>
+                        </li>
+                        <li class="list-inline-item">
+                          <i class="fa fa-database"></i>
                         </li>
                       </ul>
                     </div>

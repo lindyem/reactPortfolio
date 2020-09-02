@@ -12,7 +12,7 @@ const ServiceList = [
     icon: <FiLayers />,
     title: "Website Development",
     description:
-      "Use of current, up to date tools to create an exceptional user experience. Ability to use HTML/CSS or WordPress to suit customer needs.",
+      "Use of current, up to date tools to create an exceptional user experience. Ability to use HTML/CSS, ReactJS or WordPress to suit customer needs.",
   },
   {
     icon: <FiUsers />,
@@ -23,7 +23,7 @@ const ServiceList = [
     icon: <FiMonitor />,
     title: "Thorough Testing ",
     description:
-      "Always mobile-first, responsive design cross browser testing & debugging.",
+      "Always mobile-first, responsive design, cross browser testing & debugging.",
   },
 ];
 
