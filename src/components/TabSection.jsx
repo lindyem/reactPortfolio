@@ -31,13 +31,15 @@ class TabSection extends Component {
                             Web
                             <span> - Development</span>
                           </a>
-                          HTML5/CSS3, Javascript/jQuery, ReactJS, NodeJS, MongoDB, Firebase, WordPress
+                          HTML5/CSS3, Javascript/jQuery, ES7, Express.js,
+                          Bootstrap 4, Material-UI, ReactJS, NodeJS, MySQL,
+                          Mongo, Firebase, WordPress
                         </li>
                         <li>
                           <a href="#">
-                            User Experience Design <span> - UI/UX</span>
+                            Design <span> - UI/UX</span>
                           </a>
-                          AdobeXD, Photoshop and Illustrator.
+                          AdobeXD, Photoshop and Illustrator
                         </li>
                       </ul>
                       <div class="subheading mb-3">
@@ -98,7 +100,7 @@ class TabSection extends Component {
                         </li>
                         <li>Yoga Specialty Certification</li>
                         <li>
-                          Multi Subject Teaching Credential - California &
+                          Multi Subject Teaching Credential - California and
                           Illinois
                         </li>
                       </ul>
@@ -109,21 +111,28 @@ class TabSection extends Component {
                     <div className="single-tab-content">
                       <ul>
                         <li>
-                          <a href="#">
-                            Front End Developer- Intern
-                            <span> - Andres Galindo</span>
+                          <a href="http://needmoremed.com/">
+                            Front End Developer
+                            <span> - Crown International</span>
+                          </a>{" "}
+                          Current
+                        </li>
+                        <li>
+                          <a href="https://helloceron.com/">
+                            Web and Content Specialist
+                            <span> - Hello Ceron</span>
                           </a>{" "}
                           Current
                         </li>
                         <li>
                           <a href="#">
-                            Freelance Web Developer<span> - Self-emplyeed</span>
+                            Freelance Web Developer<span> - Self-employed</span>
                           </a>{" "}
                           Current
                         </li>
                         <li>
                           <a href="#">
-                            ADJUNCT PROFESSOR OF ENGLISH
+                            Adjunct Professor of English
                             <span> - UNIVERSIDAD PANAMERICANA </span>
                           </a>{" "}
                           2014- 2020

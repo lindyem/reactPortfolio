@@ -29,8 +29,8 @@ const PortfolioLanding = () => {
             skills and tools to keep up. I love helping students inside the
             classroom and wanted to be able to help outside the classroom as
             well. Moving forward I want to combine my love of education with my
-            new love of front-end development and instructional design. As a
-            bilingual educator, English and Spanish, and my background in
+            new love of front-end development. As a bilingual educator, 
+            English and Spanish, and my background in
             curriculum development, educational philosophy and project
             management skills, I hope to keep building bridges and creating
             content in my community through web design and e-learning`;
@@ -156,8 +156,9 @@ const PortfolioLanding = () => {
                   <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
                     <h2 className="title">My Latest Projects</h2>
                     <p>
-                      A few examples of work I've completed as Freelance
-                      projects as well as academically.
+                      For more projects and repos to the projects listed below
+                      Check out my{" "}
+                      <a href="https://github.com/lindyem">Github!</a>
                     </p>
                   </div>
                 </div>

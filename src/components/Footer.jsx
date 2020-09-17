@@ -4,6 +4,7 @@ import {
   FaInstagram,
   FaFacebookF,
   FaLinkedinIn,
+  FaTwitter,
 } from "react-icons/fa";
 
 const SocialShare = [
@@ -17,6 +18,8 @@ const SocialShare = [
     link: "https://www.linkedin.com/in/lindy-merwin/",
   },
   { Social: <FaGithub />, link: "https://github.com/lindyem/" },
+
+  { Social: <FaTwitter />, link: "https://twitter.com/lndymrwn" },
 ];
 
 const Footer = () => {
