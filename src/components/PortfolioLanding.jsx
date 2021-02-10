@@ -12,7 +12,7 @@ import aboutMeImage from "../assets/images/lindythumb1.png";
 const SlideList = [
   {
     textPosition: "text-left",
-    category: "Full Stack Developer",
+    category: "Front End Stack Developer",
     title: "Hello, I’m <span>Lindy</span>! ",
     description:
       "Born in the Midwest. Inspired by 10 years in Mexico. Teacher by trade. Web developer & designer by passion.",
@@ -33,7 +33,7 @@ const PortfolioLanding = () => {
             English and Spanish, and my background in
             curriculum development, educational philosophy and project
             management skills, I hope to keep building bridges and creating
-            content in my community through web design and e-learning`;
+            content in my community through web design and e-learning.`;
   return (
     <div>
       <Header homeLink="/" logo="symbol-dark" color="color-black" />

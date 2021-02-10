@@ -130,7 +130,7 @@ class Header extends Component {
                 </li>
 
                 <li>
-                  <a href="https://drive.google.com/file/d/1uFGDdlLVF9bdkDeDf-7GDmYsJFAi325s/view?usp=sharing">
+                  <a href="https://drive.google.com/file/d/10zumxbuy2XKmaA0kGa8ppVv3_c6kaTqr/view?usp=sharing">
                     Resume
                   </a>
                 </li>
@@ -161,7 +161,7 @@ class Header extends Component {
                 <FiMenu />
               </span>
             </div>
-            {/* End Humberger Menu  */}
+            {/* End Humburger Menu  */}
             <div className="close-menu d-block d-lg-none">
               <span onClick={this.CLoseMenuTrigger} className="closeTrigger">
                 <FiX />

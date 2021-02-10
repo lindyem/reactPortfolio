@@ -31,7 +31,7 @@ class TabSection extends Component {
                             Web
                             <span> - Development</span>
                           </a>
-                          HTML5/CSS3, Javascript/jQuery, ES7, Express.js,
+                          HTML5/CSS3, SASS, Javascript/jQuery, ES7, Express.js,
                           Bootstrap 4, Material-UI, ReactJS, NodeJS, MySQL,
                           Mongo, Firebase, WordPress
                         </li>
@@ -39,13 +39,13 @@ class TabSection extends Component {
                           <a href="#">
                             Design <span> - UI/UX</span>
                           </a>
-                          AdobeXD, Photoshop and Illustrator
+                          AdobeXD, Photoshop, Figma
                         </li>
                       </ul>
-                      <div class="subheading mb-3">
+                      {/* <div class="subheading mb-3">
                         Programming Languages & Tools
-                      </div>
-                      <ul class="list-inline dev-icons">
+                      </div> */}
+                      {/* <ul class="list-inline dev-icons">
                         <li class="list-inline-item">
                           <i class="fab fa-html5"></i>
                         </li>
@@ -79,7 +79,7 @@ class TabSection extends Component {
                         <li class="list-inline-item">
                           <i class="fa fa-database"></i>
                         </li>
-                      </ul>
+                      </ul> */}
                     </div>
                   </TabPanel>
 
@@ -124,12 +124,12 @@ class TabSection extends Component {
                           </a>{" "}
                           Current
                         </li>
-                        <li>
+                        {/* <li>
                           <a href="#">
                             Freelance Web Developer<span> - Self-employed</span>
                           </a>{" "}
                           Current
-                        </li>
+                        </li> */}
                         <li>
                           <a href="#">
                             Adjunct Professor of English

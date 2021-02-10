@@ -4,6 +4,12 @@ import "./images.scss";
 
 const PortfolioListContent = [
   {
+    image: "image-10",
+    title: "Popular TV Database: SPA with React and Redux",
+    link: "https://vercel.com/lindyem/skydropx-challenge",
+    repo: "https://github.com/lindyem/skydropx_challenge"
+  },
+  {
     image: "image-1",
     title: "BIG Mobile Echocardiography WordPress site",
     link: "http://beesimaginggroup.com/",
@@ -46,6 +52,7 @@ const PortfolioListContent = [
     link: "https://apple-store-clone.vercel.app/",
     repo: "https://github.com/lindyem/boalt-apple-store"
   },
+
 ];
 
 class PortfolioList extends Component {
