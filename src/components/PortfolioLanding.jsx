@@ -23,7 +23,7 @@ const SlideList = [
 const PortfolioLanding = () => {
   let title = "About Me",
     description = `I am an educator and developer from the midwest. I called Mexico
-            home for 10 years and have recently made the transition to San
+            home for 10 years and now reside in sunny San
             Diego. My journey into tech started through my years in education.
             The future comes quickly and it was important to me to have the
             skills and tools to keep up. I love helping students inside the
@@ -32,7 +32,9 @@ const PortfolioLanding = () => {
             new love of front-end development. As a bilingual educator, 
             English and Spanish, and my background in
             curriculum development, educational philosophy and project
-            management skills, I hope to keep building bridges and creating
+            management, I am able to swiftly solve problems and am devoted to 
+            continuing my education in current and best practices in web development.
+            I hope to keep building bridges and creating
             content in my community through web design and e-learning.`;
   return (
     <div>
