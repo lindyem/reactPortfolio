@@ -12,7 +12,7 @@ import aboutMeImage from "../assets/images/lindythumb1.png";
 const SlideList = [
   {
     textPosition: "text-left",
-    category: "Front End Stack Developer",
+    category: "Front End Developer",
     title: "Hello, I’m <span>Lindy</span>! ",
     description:
       "Born in the Midwest. Inspired by 10 years in Mexico. Teacher by trade. Web developer & designer by passion.",
